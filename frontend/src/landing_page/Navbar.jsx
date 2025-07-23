@@ -10,7 +10,8 @@ function Navbar() {
         <a className="navbar-brand" href="#">
           <img
             src="media/images/logo.svg"
-            style={{ width: "25%" }}
+            className="img-fluid"
+            style={{ maxWidth: "120px" }}
             alt="Logo"
           />
         </a>
@@ -25,36 +26,35 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
+
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <form className="d-flex" role="search">
-            <ul className="navbar-nav mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Signup
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" href="#">
-                  About
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" href="#">
-                  Product
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" href="#">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" href="#">
-                  Support
-                </a>
-              </li>
-            </ul>
-          </form>
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0 gap-2">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">
+                Signup
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active" href="#">
+                About
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active" href="#">
+                Product
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active" href="#">
+                Pricing
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active" href="#">
+                Support
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
