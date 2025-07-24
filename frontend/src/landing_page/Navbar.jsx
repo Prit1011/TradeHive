@@ -1,20 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav
-      className="navbar navbar-expand-lg border-bottom"
-      style={{ backgroundColor: "#FFF" }}
-    >
+    <nav className="navbar navbar-expand-lg border-bottom" style={{ backgroundColor: "#FFF" }}>
       <div className="container p-2">
-        <a className="navbar-brand" href="#">
+        {/* ✅ Correct Link tag for logo */}
+        <Link className="navbar-brand" to="/">
           <img
             src="media/images/logo.svg"
             className="img-fluid"
             style={{ maxWidth: "120px" }}
             alt="Logo"
           />
-        </a>
+        </Link>
+
         <button
           className="navbar-toggler"
           type="button"
@@ -30,29 +30,29 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 gap-2">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <Link className="nav-link active"  to="/signup">
                 Signup
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <Link className="nav-link active" to="/about">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <Link className="nav-link active" to="/product">
                 Product
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <Link className="nav-link active" to="/pricing">
                 Pricing
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <Link className="nav-link active" to="/support">
                 Support
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

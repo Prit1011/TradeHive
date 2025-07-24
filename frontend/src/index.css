@@ -66,3 +66,16 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+.nav-link{
+  margin-left: 30px;
+}
+.nav-link:hover{
+  color: rgb(86, 86, 232);
+}
+.navbar-brand{
+  margin-left: 70px;
+}
+.collapse{
+  margin-right: 80px;
+}

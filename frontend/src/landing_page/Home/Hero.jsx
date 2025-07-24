@@ -17,9 +17,9 @@ function Hero() {
           </p>
           <div className="d-grid gap-2 d-md-flex justify-content-md-center">
             <button
-              className="btn btn-primary fs-5 w-100 w-md-25"
+              className="btn btn-primary fs-5 w-90 px-5 w-md-25"
             >
-              Signup Now
+              Sign up for free 
             </button>
           </div>
         </div>
