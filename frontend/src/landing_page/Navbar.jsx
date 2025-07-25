@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg border-bottom" style={{ backgroundColor: "#FFF" }}>
+    <nav className="navbar navbar-expand-lg border-bottom sticky-top" style={{ backgroundColor: "#FFF" }}>
       <div className="container p-2">
         {/* ✅ Correct Link tag for logo */}
         <Link className="navbar-brand" to="/">

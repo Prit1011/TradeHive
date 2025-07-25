@@ -8,7 +8,7 @@ function Hero() {
         <a href="#" style={{textDecoration: "none"}}>Track Tickets</a>
       </div>
 
-      <div className="row px-4 py-5 m-2">
+      <div className="row px-4 py-5 m-2  ">
         {/* Left Column */}
         <div className="col-12 col-md-6 p-3">
           <h1 className="fs-3">
@@ -28,7 +28,7 @@ function Hero() {
         </div>
 
         {/* Right Column */}
-        <div className="col-12 col-md-6 p-3">
+        <div className="col-12 col-md-6 p-3 ">
           <h1 className="fs-3">Featured</h1>
           <ol className="ps-3">
             <li>
